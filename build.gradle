@@ -28,7 +28,14 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 
     // https://mvnrepository.com/artifact/org.assertj/assertj-core
-    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.12.1'
+    compile group: 'org.assertj', name: 'assertj-core', version: '3.12.1'
+
+    // https://mvnrepository.com/artifact/org.awaitility/awaitility
+    compile group: 'org.awaitility', name: 'awaitility', version: '3.1.6'
+
+
+    // https://mvnrepository.com/artifact/ru.stqa/trier
+    compile group: 'ru.stqa', name: 'trier', version: '1.3'
 
 }
 
